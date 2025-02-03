@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Greens */
+  --primary-green: #2e7d32; /* Main brand color */
+  --light-green: #81c784; /* Backgrounds, highlights */
+  --dark-green: #1b5e20; /* Headings, accents */
+  --mint-green: #a5d6a7; /* Cards, sections */
+  --forest-green: #004d40; /* Footer, dark mode elements */
+  --pale-green: #e8f5e9; /* Light backgrounds */
+  --neon-green: #00e676; /* Call-to-action elements */
+
+  /* Black & White */
+  --black: #000000; /* Pure Black */
+  --dark-gray: #333333; /* Dark Gray for text */
+  --gray: #777777; /* Secondary text */
+  --light-gray: #dddddd; /* Borders, dividers */
+  --white: #ffffff; /* Pure White */
+}
+
+.navlink a {
+  text-decoration: none;
+  color: white;
+}
+
+.navlink {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 10px;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
